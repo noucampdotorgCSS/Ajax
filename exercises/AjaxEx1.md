@@ -37,45 +37,33 @@ Check your ``htdocs`` folder.  You should have a new folder called ``Ajax`` with
 1.	Run the code by opening the HTML file [http://localhost/Ajax/HelloAjax.html](http://localhost/Ajax/HelloAjax.html).  You should see *hello, world!* when you click the button.
 
 
-## Part 2 – More Ajax
+## Part 2 – Ajax Players
 
-1.	The Figure below shows a HTML page ``DropdownAjax.html`` with a dropdown box that has options:
+1.	Examine and then view the code in [http://localhost/Ajax/DropDownAjax.html](http://localhost/Ajax/DropDownAjax.html) that displays a dropdown box of player positions - goalkeepers, defenders, midfielders, and forwards.
 
-	```
-	Choose type...
-	Goalkeepers
-	Defenders
-	Midfielders
-	Forwards
+	![](../images/DropdownAjax.png)
 
-	```
+	When a player position is selected retrieve the appropriate data for the player position from either of the corresponding files – ``goalkeepers.txt``, ``defenders.txt``, ``midfielders.txt`` and ``forwards.txt`` – and display that data on the HTML page.
 
-	![alt text](../images/DropdownAjax.png "")
+	Modify the code in ``DropDownAjax.js`` to implement this functionality.
 
-	Write the code in a JavaScript program ``DropdownAjax.js`` that retrieves the appropriate data for the player type selected from either of the corresponding files – ``goalkeepers.txt``, ``defenders.txt``, ``midfielders.txt`` and ``forwards.txt`` - and displays that data on the HTML page.
-
-	The players are:
+1.	Push your code to **your private** repository on GitHub.  Type these commands into your *Git Bash* client:
 
 	```
-	-Goalkeepers -
-	Ter Stegen
-	Cillessen
+	$ git status
+	$ git add .
+	$ git commit -m "Exercise 1 - Part 2 DONE|PARTIAL|HELP"
+	$ git push origin master
+	$ git status
 
-	-Defenders -
-	Pique
-	Umtiti
-	S. Roberto
-	Alba
-
-	-Midfielders -	
-	Iniesta
-	Rakitic
-	Busquets
-	Coutinho
-
-	-Forwards -
-	Messi
-	Dembele
-	Suarez
-	
 	```
+
+
+## Part 3 – Ajax PHP Requests
+
+1.	Examine and then run the code in [http://localhost/Ajax/HelloAjaxAndPHP.html](http://localhost/Ajax/HelloAjaxAndPHP.html) that displays data retrieve from an Ajax request to a PHP program.
+
+1.	Examine and then run the code in [http://localhost/Ajax/AjaxTimesTable.html](http://localhost/Ajax/AjaxTimesTable.html) that displays multiplication tables using Ajax requests to a PHP program.
+
+	Pay particular attention to the code in ``AjaxTimesTable.js``.
+
