@@ -1,7 +1,9 @@
 var xmlhttp;  // reference to XMLHttpRequest object
 
 window.onload=function(){
-	getAjaxData();
+	document.getElementById('button').onclick=function(){
+		getAjaxData();
+	};
 }
 
 function getAjaxData() {	
